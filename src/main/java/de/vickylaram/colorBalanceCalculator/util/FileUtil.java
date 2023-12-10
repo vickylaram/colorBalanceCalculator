@@ -60,7 +60,7 @@ public class FileUtil {
 
 
     /**
-     * Parses a given line of text and extracts a list of characters based on a specified delimiter.
+     * Parses a given line of text and parses characters to DNABase objects based on a specified delimiter.
      *
      * @param line      The line of text to be parsed.
      * @param delimiter The delimiter used to split the line.
@@ -90,6 +90,12 @@ public class FileUtil {
         return sequence;
     }
 
+    /**
+     * Parses a raw character from a line in a file to a DNABase object
+     * @param rawCharacter The character to be parsed. Should be 'A', 'C', 'G', or 'T' (see {@link DNABase} enum)
+     * @return DNABase enum corresponding to the input character.
+     * @throws IllegalBaseException If a character that is not a valid nucleotide is provided.
+     */
     private static DNABase parseDNABase(char rawCharacter) throws IllegalBaseException {
         switch (rawCharacter) {
 

@@ -10,7 +10,7 @@ import de.vickylaram.colorBalanceCalculator.model.dna.DNABase;
 public class RedLightLaser implements Laser {
 
     /**
-     * Reads and interprets a DNA base using the red light laser approach.
+     * Reads and interprets a DNA base as a red light laser.
      * Overrides the {@code readBase} method from the {@link Laser} interface.
      *
      * @param base The DNA base to be read, expected to be a DNABase type object.

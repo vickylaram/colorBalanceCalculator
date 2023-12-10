@@ -10,7 +10,7 @@ import de.vickylaram.colorBalanceCalculator.model.dna.DNABase;
  */
 public class GreenLightLaser implements Laser {
     /**
-     * Reads and interprets a DNA base using the green light laser approach.
+     * Reads and interprets a DNA base as a green light laser.
      * Overrides the {@code readBase} method from the {@link Laser} interface.
      *
      * @param base The DNA base to be read, expected to be a DNABase type object.
