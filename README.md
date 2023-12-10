@@ -19,7 +19,7 @@ space, but you can provide your own (comma or semicolon) by using -d flag when e
 consistent throughout your file. \
 Also, please make sure to place only one index per line. If you like, you can add a number at the beginning
 of the line for better overview, but this is completely optional. \
-In case you don't have an input file ready, there are three sample inputs.
+In case you don't have an input file ready, you can find three sample inputs.
 
 ## Background information
 
