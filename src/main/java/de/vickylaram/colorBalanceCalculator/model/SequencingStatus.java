@@ -7,14 +7,7 @@ package de.vickylaram.colorBalanceCalculator.model;
  */
 public enum SequencingStatus {
 
-    /**
-     * Indicates the sequencing was successful.
-     */
     SUCCESS,
-
-    /**
-     * Indicates the sequencing failed.
-     */
     FAILURE
 
 }
